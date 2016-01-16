@@ -4,18 +4,19 @@
     "emitEntryPoint": true
   },
 
-  "dependencies": {
-    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final"
-  },
+    "dependencies": {
+        "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+        "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Session": "1.0.0-rc1-final"
+    },
 
   "commands": {
     "web": "Microsoft.AspNet.Server.Kestrel"
   },
 
   "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
+    "dnx451": { }
   },
 
   "exclude": [
