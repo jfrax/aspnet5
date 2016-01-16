@@ -24,7 +24,7 @@ namespace aspnet5
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello Cruel World!");
+                await context.Response.WriteAsync("Hello wonderful, but sometimes cruel world!");
             });
         }
 
