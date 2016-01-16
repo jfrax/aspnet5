@@ -13,7 +13,7 @@ namespace aspnet5.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View("go to hell");
+            return View(model: "go to hell");
         }
     }
 }
